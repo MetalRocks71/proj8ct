@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;400;700&family=Nanum+Gothic:wght@400;700&display=swap");
+
+@media screen and (min-width: 480px) and (max-width: 1200px) {
+}
+* {
+  margin: 0;
+}
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Nanum Gothic", sans-serif;
+  background-repeat: no-repeat;
+}
+
+/*navigation*/
+
+nav {
+  background-image: url("../images/bgi.jpg");
+  text-align: center;
+  height: 60px;
+}
+
+nav a {
+  margin: 0 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 2rem;
+  text-decoration: none;
+  line-height: 60px;
+  color: black;
+  font-family: "Mukta", sans-serif;
+  font-weight: 700;
+}
+
+nav a:hover {
+  color: white;
+}
+
+/*css for the index-html*/
+main {
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+main img {
+  height: 330px;
+  padding: 20px;
+}
+
+main img:hover {
+  transform: scale(1.2);
+}
+
+main div {
+  margin: 30px 0;
+}
+
+main div h1 {
+  font-size: 3rem;
+  text-shadow: 1px 1px 5px rgb(4, 70, 255);
+}
+
+main div p {
+  padding: 20px 0;
+  font-size: 1.7rem;
+}
+
+.free {
+  font-size: 2rem;
+  font-style: bolder;
+}
+main div p {
+  font-size: 2rem;
+  padding: 40px 0px;
+}
+main div.home-content a {
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+  padding: 10px 50px;
+  font-size: 1.5rem;
+  background-color: rgb(76, 145, 30);
+}
+
+main div.home-content a:hover {
+  color: blue;
+  background-color: rgb(228, 228, 228);
+  border: 1px solid rgb(76, 145, 30);
+  transition: 1s;
+}
+
+.fa-graduation-cap,
+.fa-university,
+.fa-image {
+  color: rgb(4, 214, 252);
+}
+/* css for the colunm in the about.html*/
+.colunm {
+  width: 30%;
+  height: 150px;
+  display: inline-block;
+  color: rgb(0, 0, 0);
+  font-size: 3rem;
+  text-align: center;
+  border: 2px solid green;
+  background-color: rgb(243, 131, 86);
+}
+.text {
+  padding-top: initial;
+}
+
+.colunm:hover {
+  color: blue;
+  background-color: rgb(228, 228, 228);
+  transition: 3s;
+}
+/* css for the services.html*/
+#ser {
+  background-color: rgb(224, 205, 205);
+}
+
+main:hover .web {
+  transform: none;
+}
+
+.seo:hover {
+  transform: rotate(0.5turn);
+}
+
+.WebDev:hover {
+  transform: none;
+}
+
+main:hover .ser {
+  transform: none;
+}
+
+.left {
+  text-align: justify;
+}
+.web {
+  display: block;
+  margin-right: auto;
+}
+.web,
+.WebDev {
+  display: block;
+  font-size: 2rem;
+  border-radius: 30%;
+}
+
+main img .web {
+  padding: 20px;
+}
+
+.seo {
+  display: block;
+  margin-left: auto;
+  width: 480px;
+}
+
+.green {
+  color: goldenrod;
+}
+
+/* css portfolio.html*/
+
+body.f {
+  background: linear-gradient(
+    to bottom,
+    #53717a 0%,
+    rgb(22, 174, 194) 50%,
+    #adf30a 100%
+  );
+}
+
+.por {
+  border: 1px solid black;
+  border-radius: 30px;
+  box-shadow: 5px 10px 5px;
+}
+
+.por:hover {
+  transform: none;
+}
+
+.port img:hover {
+  transform: none;
+}
+
+figure {
+  text-align: left;
+}
+
+.img1 {
+  width: 150px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+.img2 {
+  width: 150px;
+  height: 100px;
+  margin-left: 90%;
+}
+
+p {
+  padding: 10px 10px;
+  border: 10px;
+}
+
+/* CSS Contact.html */
+
+body.C {
+  background: linear-gradient(to right, #c4c2c2 0%, grey, #5a5959 100%);
+}
+
+span {
+  color: rgb(42, 121, 148);
+  font-weight: 700;
+}
+
+address {
+  font-size: 15px;
+}
+
+.iconsmedia {
+  font-size: 50px;
+  margin-top: 20px;
+}
+
+.fa-mobile {
+  color: black;
+}
+
+.fa-envelope {
+  color: rgb(69, 159, 243);
+}
+
+.fa-whatsapp {
+  color: rgb(37, 211, 102);
+}
